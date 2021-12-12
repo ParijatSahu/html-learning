@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(110, 192, 117);
+    /* background-image: url('../mani roli pic.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    font-size: 1cm;
+    background-attachment:scroll;
+}
+div{
+    color: rgb(13, 8, 82);
+}
+
+.navbar{
+    background-color: gold;
+    margin: 0px;
+    
+}
+
+
+.navitems{
+    border: rgb(253, 14, 6) solid;
+    border-radius: 10px;
+    /* border-top-style: double ;
+    border-bottom-style: dashed ;
+    border-left-style: dotted ;
+    border-right-style: solid ; */
+    border-width: 5px;
+    background-color: green;
+    margin: 20px;
+
+}
+
+.item{
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 5px;
+}
+
+.class{
+    color: black;
+    border:rgb(191, 235, 32) 4px solid;
+    border-radius: 20px;
+    font-size: 20px;
+    /* width:50% ;
+    height: 100px; */
+    /* margin: auto; */
+    /* margin: inherit; */
+    margin: 50px;
+    padding: 50px;
+    outline: 5px double black; 
+    text-align: center left right; 
+    word-spacing: 3px; 
+    text-shadow: 10px;
+    direction: ltr;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 3.5vh;
+}
+
+.class a{
+    text-decoration: none underline overline line-through;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family:sans-serif;
+}
+
+.item a:hover{
+    background-color: rgb(223, 26, 26);
+    color:white;
+    font-size: 1.4em;   
+}
+/* .item a:active{
+    font-size: 4.5em;
+} */
+
+

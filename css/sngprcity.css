@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(236, 193, 128);
+    background-image: url(../bgblur.jpg);
+    background-size: 1000px 1000px;
+}
+
+#head{
+    color:rgb(23, 23, 192);
+    background-color: #fff;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline solid;
+    font-size: 30px;
+    font-family:inherit;
+}
+
+.navitems{
+    background-color:gold;
+    color: hsl(0, 95%, 46%);
+    border: black 5px solid;
+    border-radius: 18px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    /* display: inline; */
+    margin: auto ;
+    margin-bottom: 20px;
+    /* word-spacing: 10px; */
+    padding: 15px;
+    width: 50%;
+}
+
+.item{
+    display: inline;
+    margin: 25px;
+}
+
+.land{
+    border:black 3px dotted ;
+    /* align-items:baseline; */
+    margin: auto;
+    word-spacing: 4px;
+    padding-top: 12px;
+    background-color: rgb(107, 241, 219);
+    height: 50%;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    /* float: center; */
+}
+
+.sections{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: black 2px;
+
+}
+
+.footer{
+    text-align:left;
+    background: rgb(48, 47, 47);
+    height: 50px;
+    color: honeydew;
+    padding: 10px;
+
+}
+
+
+.sections a:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.navitems :hover{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.sections > div{
+    background-color: rgb(245, 250, 246);
+    color: black;
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+    padding-top: 8px;
+}
+
+.class{
+    padding-left: 5px;
+}
